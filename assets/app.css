@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* CSS to transition the background color */
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.bg-white {
+  background-color: white;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.navbar.bg-transparent {
+  background-color: transparent;
+}
+
+.scrolled .block,
+.scrolled .block a {
+  color: black !important;
+}
+
+.scrolled a {
+  color: black !important;
+}
+
+.scrolled button {
+  color: black !important;
+}
+
+.scrolled {
+  background-color: white !important;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.inputan {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* Media query for tablets */
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  .inputan {
+    width: 100%;
+    max-width: 300px;
+  }
+}
